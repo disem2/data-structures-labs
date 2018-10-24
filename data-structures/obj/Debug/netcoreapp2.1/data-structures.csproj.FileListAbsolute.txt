@@ -1,0 +1,11 @@
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/bin/Debug/netcoreapp2.1/data-structures.deps.json
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/bin/Debug/netcoreapp2.1/data-structures.runtimeconfig.json
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/bin/Debug/netcoreapp2.1/data-structures.runtimeconfig.dev.json
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/bin/Debug/netcoreapp2.1/data-structures.dll
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/bin/Debug/netcoreapp2.1/data-structures.pdb
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/obj/Debug/netcoreapp2.1/data-structures.csprojAssemblyReference.cache
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/obj/Debug/netcoreapp2.1/data-structures.csproj.CoreCompileInputs.cache
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/obj/Debug/netcoreapp2.1/data-structures.AssemblyInfoInputs.cache
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/obj/Debug/netcoreapp2.1/data-structures.AssemblyInfo.cs
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/obj/Debug/netcoreapp2.1/data-structures.dll
+/Users/dmitry/projects/study/nure/data-structures/data-structures/data-structures/obj/Debug/netcoreapp2.1/data-structures.pdb
