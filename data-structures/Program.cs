@@ -89,9 +89,12 @@ namespace data_structures
             {
                 int lineSum = 0;
                 bool isCount = false;
+                int[] row = new int[matrixSize];
 
                 for (int j = 0; j < matrixSize; j++)
                 {
+                    row[j] = matrix[i, j];
+
                     if (isCount)
                     {
                         lineSum += matrix[i, j];
@@ -102,6 +105,8 @@ namespace data_structures
                         isCount = true;
                     }
                 }
+
+                Console.WriteLine('|' + string.Join(", ", row) + '|');
 
                 result[i] = isCount ? lineSum : 100;
             }
