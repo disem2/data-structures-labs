@@ -117,13 +117,26 @@ namespace data_structures
         static int CheckMirrorWordsQuantity(string str)
         {
             int result = 0;
-            string[] words = str.Replace(System.Environment.NewLine, "").Split(' ');
+            string word = "";
 
-            foreach (string word in words)
+            foreach (char c in str)
             {
-                if (word[0] == word[word.Length - 1])
+                if (c.Equals('\n'))
                 {
-                    result++;
+                    continue;
+                }
+                else if (c == ' ')
+                {
+                    if (word.Length > 0 && word[0] == word[word.Length - 1])
+                    {
+                        result += 1;
+                    }
+
+                    word = "";
+                }
+                else
+                {
+                    word += c;
                 }
             }
 
