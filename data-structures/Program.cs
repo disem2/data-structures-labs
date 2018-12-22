@@ -11,7 +11,7 @@ namespace data_structures
             int[,] matrix = { { 5, -1, 8, 2 }, { 0, 5, 2, 1 }, { 6, 1, -1, 2 }, { 5, 6, 7, -5 } };
 
             double lab1Result = GetResult(81, 3); // 9.51245672686636
-            bool lab2Result = CheckMinMaxMultiplicity(6918, 2); // True
+            bool lab2Result = CheckMinMaxMultiplicity(6918, 5); // True
             int lab3Result = CountSingleElementsQuantity(array); // 3
             int[] lab4Result = GetLineSumArray(matrix); // [10, 100, 2, 0]
             int lab5Result = CheckMirrorWordsQuantity("CoooC asfff fffff Lfsfdl"); // 2
@@ -45,7 +45,8 @@ namespace data_structures
 
         static void SetMinMaxDigits(int number, out int min, out int max)
         {
-            int[] digitsArray = Array.ConvertAll(number.ToString().ToCharArray(), x => (int)x);
+            int[] digitsArray = Array.ConvertAll(number.ToString().ToCharArray(), x => (int)Char.GetNumericValue(x));
+
             Array.Sort(digitsArray);
 
             min = digitsArray[0];
